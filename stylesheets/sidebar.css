@@ -1,12 +1,20 @@
 /* Навигация */
-  nav {
-    width: 300px;
-    position: fixed;
-    top: 20px;
-    left: 10px;
-    padding: 7px;
-    background-color: rgb(248, 249, 250);
-    border-color: rgb(162, 169, 177);
-    border-style: solid;
-    border-width: 1px;
-  }
+nav {
+background: #222222
+  width: 300px;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 100vh;
+  display: block;
+}
+nav a{
+  text-decoration: none;
+}
+.sidebar{
+  padding-left: 0px;
+}
