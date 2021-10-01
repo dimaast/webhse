@@ -1,23 +1,40 @@
-body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: 'PT Sans', sans-serif;
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'PT Sans', sans-serif;
 }
-a { color: inherit;
+a {
+  color: inherit;
 }
-h1, h2, h3, p, ul, blockquote, div, img, hr { width: 700px; margin: 0 auto;
+h1, h2, h3, h4, p, ul, blockquote, div, img, hr {
+  width: 700px;
+  margin: 0 auto;
 }
-h1, h2, h3 { font-family: 'PT Sans Caption', sans-serif; font-weight: bold;
+h1, h2, h3, h4 {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
 }
-h1 { margin-top: 67px; font-size: 38px; line-height: 45px;
+h1 {
+  margin-top: 67px;
+  font-size: 38px;
+  line-height: 45px;
 }
-h1 + p { margin-top: 8px;
-   font-family: 'PT Sans Caption',
-   sans-serif;
-   font-size: 22px;
-   line-height: 32px;
-   color: rgba(0,0,0,.4);
+h1 + p {
+  margin-top: 8px;
+  font-family: 'PT Sans Caption',
+  sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+  color: rgba(0,0,0,.4);
 }
-h1 + p + p { margin-top: 30px;
+h1 + p + p {
+  margin-top: 30px;
 }
-h2 { margin-top: 43px; font-size: 32px; line-height: 36px; color: rgba(0, 0, 0, .8);
+h2 {
+  margin-top: 43px;
+  font-size: 32px;
+  line-height: 36px;
+  color: rgba(0, 0, 0, .8);
 }
 h2 + p,
 h2 + blockquote { margin-top: 7px;
