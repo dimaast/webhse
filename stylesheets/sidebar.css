@@ -1,0 +1,12 @@
+/* Навигация */
+  nav {
+    width: 300px;
+    position: fixed;
+    top: 20px;
+    left: 10px;
+    padding: 7px;
+    background-color: rgb(248, 249, 250);
+    border-color: rgb(162, 169, 177);
+    border-style: solid;
+    border-width: 1px;
+  }
